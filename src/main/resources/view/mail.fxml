@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="679.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.sapteh.controller.MainController">
+   <children>
+      <TableView layoutX="2.0" prefHeight="394.0" prefWidth="675.0">
+        <columns>
+          <TableColumn fx:id="Id" prefWidth="75.0" text="Id Клиента" />
+          <TableColumn fx:id="FirstName" prefWidth="75.0" text="Имя клиента" />
+            <TableColumn fx:id="LastName" prefWidth="75.0" text="Фамилия клиента" />
+            <TableColumn fx:id="Patronymic" prefWidth="75.0" text="Отчество клиента" />
+            <TableColumn fx:id="Birthday" prefWidth="75.0" text="Дата рождения клиента" />
+            <TableColumn fx:id="RegistrationDate" prefWidth="75.0" text="Дата регистрации" />
+            <TableColumn fx:id="Email" prefWidth="75.0" text="Почта" />
+            <TableColumn fx:id="Phone" prefWidth="75.0" text="Номер телефона " />
+            <TableColumn fx:id="Gender" prefWidth="75.0" text="Пол" />
+        </columns>
+      </TableView>
+   </children>
+</Pane>

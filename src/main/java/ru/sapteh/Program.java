@@ -1,0 +1,24 @@
+package ru.sapteh;
+
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+import java.io.IOException;
+
+public class Program extends Application {
+
+    @Override
+    public void start(Stage stage) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("/view/mail.fxml"));
+        stage.setTitle("Client");
+        stage.setScene(new Scene(root));
+        stage.show();
+
+    }
+    public static void maim(String[] args){
+        launch(args);
+    }
+}
